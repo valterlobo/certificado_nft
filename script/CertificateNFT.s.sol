@@ -18,7 +18,7 @@ contract Deploy is Script {
             "CERTBLCK",
             "Blockchain Developer with Solidity",
             "DIO",
-            "http://pkd/01.jpg"
+            "ipfs://bafybeidnjgaggvuaug4wwwxwyw5pusm43qjxmcuujjo4ca2gorfn5q2k6y/c8fb448d-5ca4-41b2-b22a-07eadb658eac.png"
         );
         console.log(address(nft));
         vm.stopBroadcast();
@@ -34,7 +34,7 @@ contract Mint is Script {
         address tkContract = vm.envAddress("TK_CONTRACT");
         CertificateNFT nft = CertificateNFT(payable(tkContract));
         address to = payable(vm.envAddress("TO_MINT"));
-        nft.mintCertificate(to, "LOBO DEV", "10/06/2024", "98");
+        nft.mintCertificate(to, "JOAO WEB3", "10/07/2024", "90");
         vm.stopBroadcast();
     }
 }

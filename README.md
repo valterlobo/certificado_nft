@@ -39,11 +39,11 @@ A utilização de NFTs para emissão de certificados oferece uma solução moder
 
 ### Informações do Contrato
 
-- **Número do Contrato**: [0x41639F6cC552546a840f7C39FDad798158426314](https://testnet.bscscan.com/token/0x41639F6cC552546a840f7C39FDad798158426314)
+- **Número do Contrato**: [0x592aF46e00853100dFE363E7345237725f71Fb0C](https://testnet.bscscan.com/token/0x592aF46e00853100dFE363E7345237725f71Fb0C)
 - **BscScan**: Verifique o contrato no BscScan para visualizar transações e detalhes técnicos.
-  [BscScan do Certificado DIO](https://testnet.bscscan.com/token/0x41639F6cC552546a840f7C39FDad798158426314)
-- **OpenSea (BNB Testnet)**: Explore a coleção de Pokémons no marketplace OpenSea para tokens na rede de teste BNB.
-  [OpenSea - Certificado DIO](https://testnets.opensea.io/collection/pokemondio)
+  [BscScan do Certificado DIO](https://testnet.bscscan.com/token/0x592aF46e00853100dFE363E7345237725f71Fb0C)
+- **OpenSea (BNB Testnet)**: Explore os Certificados no marketplace OpenSea para tokens na rede de teste BNB.
+  [OpenSea - Certificado DIO](https://testnets.opensea.io/collection/certificado-dio-blockchain)
 
 
 ### Implantação 
@@ -68,14 +68,14 @@ forge build
 #### 4. Executar o script de "Deploy" do contrato
 
 ```shell
-forge script script/PokemonDIO.s.sol:Deploy   --fork-url $RPC_URL  --broadcast 
+forge script script/CertificateNFT.s.sol:Deploy   --fork-url $RPC_URL  --broadcast 
 ```
 
 
-#### 5. Executar o script de "Mint" do Pokemon
+#### 5. Executar o script  para emitir o certificado "mintCertificate"
 
 ```shell
-forge script script/PokemonDIO.s.sol:Mint   --fork-url $RPC_URL  --broadcast 
+forge script script/CertificateNFT.s.sol:Mint   --fork-url $RPC_URL  --broadcast 
 ```
 
 
