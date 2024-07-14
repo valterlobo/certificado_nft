@@ -46,7 +46,7 @@ A utilização de NFTs para emissão de certificados oferece uma solução moder
   [OpenSea - Certificado DIO](https://testnets.opensea.io/collection/certificado-dio-blockchain)
 
 
-### Implantação 
+### Implantação
 
 Para implantar, você precisará de um ambiente de desenvolvimento Ethereum, como o Foundry
 
